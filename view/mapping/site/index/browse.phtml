@@ -26,7 +26,7 @@ $query['mapping_basemap_provider'] = $query['mapping_basemap_provider'] ?? '';
     data-marker-lng="<?php echo $this->escapeHtml($marker->lng()); ?>"
 >
     <?php if ($marker->label()): ?>
-    <h3><?php echo $this->escapeHtml($marker->label()); ?></h3>
+    <!-- <h3><?php // echo $this->escapeHtml($marker->label()); ?></h3> -->
     <?php endif; ?>
     <?php if ($marker->media()): ?>
     <img src="<?php echo $this->escapeHtml($marker->media()->thumbnailUrl('medium')); ?>">

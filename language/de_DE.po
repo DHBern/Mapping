@@ -2,62 +2,75 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Joachim Räth <info@ihregeschichte.info>, 2019
-# 
-#, fuzzy
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-14 18:09-0400\n"
-"PO-Revision-Date: 2017-09-14 20:15+0000\n"
+"POT-Creation-Date: 2021-01-13 15:11+0100\n"
+"PO-Revision-Date: 2021-01-13 15:11+0100\n"
 "Last-Translator: Joachim Räth <info@ihregeschichte.info>, 2019\n"
-"Language-Team: German (Germany) (https://www.transifex.com/omeka/teams/14184/de_DE/)\n"
+"Language-Team: German (Germany) (https://www.transifex.com/omeka/teams/14184/"
+"de_DE/)\n"
+"Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de_DE\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: translate\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: language\n"
 
 #: Module.php:257 view/mapping/index/form.phtml:26
 msgid "Mapping"
 msgstr "Georeferenzierung"
 
-#: src/Site/BlockLayout/AbstractMap.php:51
+#: src/Site/BlockLayout/AbstractMap.php:49
 #: view/common/navigation-link-form/mapping-map-browse.phtml:16
 msgid "Basemap provider"
 msgstr ""
 
-#: src/Site/BlockLayout/AbstractMap.php:52
+#: src/Site/BlockLayout/AbstractMap.php:50
 msgid ""
 "Select the basemap provider. The default is OpenStreetMap.Mapnik. These "
 "providers are offered AS-IS. There is no guarantee of service or speed."
 msgstr ""
 
-#: src/Site/BlockLayout/AbstractMap.php:58
+#: src/Site/BlockLayout/AbstractMap.php:56
 msgid "Minimum zoom level"
 msgstr ""
 
-#: src/Site/BlockLayout/AbstractMap.php:59
+#: src/Site/BlockLayout/AbstractMap.php:57
 msgid ""
 "The minimum zoom level down to which the map will be displayed. The default "
 "is 0."
 msgstr ""
 
-#: src/Site/BlockLayout/AbstractMap.php:66
+#: src/Site/BlockLayout/AbstractMap.php:64
 msgid "Maximum zoom level"
 msgstr ""
 
-#: src/Site/BlockLayout/AbstractMap.php:67
+#: src/Site/BlockLayout/AbstractMap.php:65
 msgid ""
 "Set the maximum zoom level up to which the map will be displayed. The "
 "default is 19."
 msgstr ""
 
+#: src/Site/BlockLayout/MapQuery.php:29 src/Site/BlockLayout/MapQuery.php:33
+msgid "Query"
+msgstr ""
+
 #: src/Site/BlockLayout/MapQuery.php:36
 msgid "Attach items using this query."
+msgstr ""
+
+#: view/admin/csv-mapping.phtml:2 view/admin/csv-mapping.phtml:16
+msgid "Expand"
 msgstr ""
 
 #: view/admin/csv-mapping.phtml:3 view/admin/csv-mapping.phtml:6
@@ -82,19 +95,19 @@ msgstr "Längengrad/Breitengrad"
 
 #: view/admin/csv-mapping.phtml:17 view/admin/csv-mapping.phtml:20
 msgid "Default map view"
-msgstr ""
+msgstr "Standardkartenansicht"
 
 #: view/admin/csv-mapping.phtml:22
 msgid "Map center latitude"
-msgstr ""
+msgstr "Kartenmitte Breitengrad"
 
 #: view/admin/csv-mapping.phtml:23
 msgid "Map center longitude"
-msgstr ""
+msgstr "Kartenmitte Längengrad"
 
 #: view/admin/csv-mapping.phtml:24
 msgid "Default zoom"
-msgstr ""
+msgstr "Standardzoom"
 
 #: view/common/block-layout/mapping-block-form.phtml:21
 msgid "Default View"
@@ -103,9 +116,10 @@ msgstr "Standardansicht"
 #: view/common/block-layout/mapping-block-form.phtml:27
 #, php-format
 msgid ""
-"Set the default view using the in-map controls. The current zoom level is "
-"%s."
+"Set the default view using the in-map controls. The current zoom level is %s."
 msgstr ""
+"Zum Einrichten der Standardansicht die Kontrollelemente der Karte verwenden. "
+"Das aktuelle zoom-level ist %s."
 
 #: view/common/block-layout/mapping-block-form.phtml:35
 msgid "WMS Overlays"
@@ -118,6 +132,11 @@ msgid ""
 msgstr ""
 "Hinzufügen, bearbeiten und löschen Sie Web Map Service (WMS) Folien. "
 "Markieren Sie, welche Folie als Standard geöffnet werden soll."
+
+#: view/common/block-layout/mapping-block-form.phtml:62
+#: view/common/navigation-link-form/mapping-map-browse.phtml:15
+msgid "Label"
+msgstr ""
 
 #: view/common/block-layout/mapping-block-form.phtml:71
 msgid "Base URL"
@@ -169,7 +188,7 @@ msgstr ""
 
 #: view/common/block-layout/mapping-block-form.phtml:152
 msgid "Default view"
-msgstr ""
+msgstr "Standardansicht"
 
 #: view/common/block-layout/mapping-block-form.phtml:153
 msgid "Event marker, zoom 0"
@@ -229,6 +248,10 @@ msgstr ""
 msgid "Select the position of the timeline navigation."
 msgstr ""
 
+#: view/common/block-layout/mapping-block-form.phtml:214
+msgid "Property"
+msgstr ""
+
 #: view/common/block-layout/mapping-block-form.phtml:217
 msgid ""
 "Select the timestamp or interval property to use when populating the "
@@ -246,6 +269,10 @@ msgstr "Objekt: %s"
 #, php-format
 msgid "Media: %s"
 msgstr "Repräsentation: %s"
+
+#: view/common/navigation-link-form/mapping-map-browse.phtml:14
+msgid "Type"
+msgstr ""
 
 #: view/mapping/index/advanced-search.phtml:5
 msgid "Kilometers"
@@ -285,7 +312,7 @@ msgstr "Markierungsbeschriftung"
 
 #: view/mapping/index/form.phtml:58
 msgid "Select Marker Image"
-msgstr "Wählen Sie eine Ortsmarkierung."
+msgstr "Wählen Sie eine Ortsmarkierung"
 
 #: view/mapping/site/index/browse.phtml:18
 msgid "Search Map"
@@ -299,31 +326,8 @@ msgstr "Repräsentation anzeigen"
 msgid "View item"
 msgstr "Objekt anzeigen"
 
-#: src/Site/Navigation/Link/MapBrowse.php:13
-msgid "Map Browse"
-msgstr "Karte durchstöbern"
+#~ msgid "You must select a location on the map."
+#~ msgstr "Wählen Sie einen Ort auf der Karte."
 
-#: src/Site/BlockLayout/Map.php:15
-msgid "Map by attachments"
-msgstr ""
-
-#: src/Site/BlockLayout/AbstractMap.php:55
-#: view/common/navigation-link-form/mapping-map-browse.phtml:11
-msgid "[Default provider]"
-msgstr ""
-
-#: src/Site/BlockLayout/MapQuery.php:15
-msgid "Map by query"
-msgstr ""
-
-#: src/Collecting/PromptMap.php:26
-msgid "You must select a location on the map."
-msgstr "Wählen Sie einen Ort auf der Karte."
-
-#: src/Api/Adapter/MappingAdapter.php:45
-msgid "A mapping zone must have an item."
-msgstr ""
-
-#: src/Api/Adapter/MappingAdapter.php:51
-msgid "Map bounds must contain four numbers separated by commas"
-msgstr ""
+#~ msgid "Map Browse"
+#~ msgstr "Karte durchstöbern"

@@ -9,7 +9,7 @@ $(document).ready(function() {
         var marker;
 
         L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a>'
+            attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a>'
         }).addTo(map);
         map.setView([20, 0], 2);
 

@@ -449,10 +449,10 @@
 			}
 		},
 		OpenWeatherMap: {
-			url: 'http://{s}.tile.openweathermap.org/map/{variant}/{z}/{x}/{y}.png?appid={apiKey}',
+			url: 'https://{s}.tile.openweathermap.org/map/{variant}/{z}/{x}/{y}.png?appid={apiKey}',
 			options: {
 				maxZoom: 19,
-				attribution: 'Map data &copy; <a href="http://openweathermap.org">OpenWeatherMap</a>',
+				attribution: 'Map data &copy; <a href="https://openweathermap.org">OpenWeatherMap</a>',
 				apiKey:'<insert your api key here>',
 				opacity: 0.5
 			},
@@ -590,7 +590,7 @@
 			}
 		},
 		FreeMapSK: {
-			url: 'http://t{s}.freemap.sk/T/{z}/{x}/{y}.jpeg',
+			url: 'https://t{s}.freemap.sk/T/{z}/{x}/{y}.jpeg',
 			options: {
 				minZoom: 8,
 				maxZoom: 16,
@@ -778,7 +778,7 @@
 			//  z12-18 - one inch (1:63360)
 			url: 'https://nls-{s}.tileserver.com/nls/{z}/{x}/{y}.jpg',
 			options: {
-				attribution: '<a href="http://geo.nls.uk/maps/">National Library of Scotland Historic Maps</a>',
+				attribution: '<a href="https://geo.nls.uk/maps/">National Library of Scotland Historic Maps</a>',
 				bounds: [[49.6, -12], [61.7, 3]],
 				minZoom: 1,
 				maxZoom: 18,

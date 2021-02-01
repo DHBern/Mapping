@@ -104,7 +104,7 @@ class MappingMarkerAdapter extends AbstractEntityAdapter
         ) {
             // Get the address' latitude and longitude from OpenStreetMap.
             $client = $this->getServiceLocator()->get('Omeka\HttpClient')
-                ->setUri('http://nominatim.openstreetmap.org/search')
+                ->setUri('https://nominatim.openstreetmap.org/search')
                 ->setParameterGet([
                     'q' => $query['address'],
                     'format' => 'json',

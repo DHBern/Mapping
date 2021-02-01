@@ -3,7 +3,7 @@ $item = $marker->item();
 $media = $marker->media();
 ?>
 <?php if ($marker->label()): ?>
-<h3><?php echo $this->escapeHtml($marker->label()); ?></h3>
+<!-- <h3><?php // echo $this->escapeHtml($marker->label()); ?></h3> -->
 <?php endif; ?>
 <?php if ($media): ?>
 <img src="<?php echo $this->escapeHtml($media->thumbnailUrl('medium')); ?>">
